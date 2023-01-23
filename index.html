@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhakanaka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&family=Inter:wght@400;500;700&family=Lobster&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:wght@500;700&family=Rubik+Bubbles&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              blackk: "#131313",
+              yellow: "#FECC02",
+              gray: "#4E4E4E",
+            },
+            fontFamily: {
+              bebas: ["Bebas Neue", "cursive"],
+              montserrat: ["Montserrat", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <!-- menu bar -->
+      <nav class="h-20 fixed bg-white left-0 top-0 right-0">
+        <div
+          class="flex justify-between h-20 items-center w-full max-w-7xl mx-auto px-5"
+        >
+          <h2 class="text-[32px] font-normal font-bebas text-blackk">
+            Jhaka Naka Production
+          </h2>
+          <ul class="flex gap-5 text-base font-normal font-bebas text-balckk">
+            <li>About us</li>
+            <li>Our movies</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <section class="bg-[url('/images/banner.jpg')] bg-cover h-screen pt-20">
+        <div class="h-full w-full max-w-7xl flex px-5 items-center mx-auto">
+          <div>
+            <h2 class="text-xl font-normal text-white font-bebas">
+              Movie production studio
+            </h2>
+            <h1 class="text-7xl font-normal font-bebas text-white">
+              Films MAde to
+              <br />
+              <span class="text-yellow">Perfection</span>
+            </h1>
+            <p
+              class="text-base font-Montserrat font-normal text-white max-w-lg"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <button
+              class="text-xl font-bebas font-normal text-white border-2 border-white px-6 py-3 mt-3 hover:bg-yellow hover:border-yellow hover:text-black duration-500 rounded-md"
+            >
+              Discover more
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- filming exprience -->
+      <section class="my-24 mx-5">
+        <div class="border-2 border-black w-full max-w-7xl mx-auto p-5">
+          <div class="md:flex">
+            <div
+              class="w-full md:w-1/2 bg-green-200 bg-[url('/images/camera-man.jpg')] bg-center bg-cover h-[500px]"
+            ></div>
+            <div class="w-full md:w-1/2 p-5">
+              <h5 class="text-base font-bebas font-normal">ABOUT US</h5>
+              <h2 class="text-7xl font-normal font-bebas">
+                FIlming Experience <br />
+                <span>Just Got better</span>
+              </h2>
+              <p class="text-base font-Montserrat font-normal">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <button
+                class="text-xl font-bebas font-normal text-black border-2 border-black px-6 py-3 mt-3 hover:bg-yellow hover:border-yellow hover:text-black duration-500 rounded-md"
+              >
+                Discover more
+              </button>
+            </div>
+          </div>
+          <div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-10 p-5">
+            <div class="">
+              <div class="h-1 w-full bg-black mb-5"></div>
+              <h2 class="text-5xl font-normal font-bebas">OUR VISIOn</h2>
+              <p class="text-base font-normal font-montserrat">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="">
+              <div class="h-1 w-full bg-black mb-5"></div>
+              <h2 class="text-5xl font-normal font-bebas">OUR Mission</h2>
+              <p class="text-base font-normal font-montserrat">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="">
+              <div class="h-1 w-full bg-black mb-5"></div>
+              <h2 class="text-5xl font-normal font-bebas">OUR Motto</h2>
+              <p class="text-base font-normal font-montserrat">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- movie collection section -->
+      <section class="py-12 bg-gray px-5">
+        <div class="w-full max-w-7xl mx-auto px-5">
+          <h3 class="text-base font-normal font-bebas text-white">
+            OUR MOVIES
+          </h3>
+          <div class="md:flex justify-between items-center">
+            <h2 class="text-7xl font-normal font-bebas text-white">
+              Movie collection
+            </h2>
+            <button
+              class="text-xl font-bebas font-normal text-white border-2 border-white px-6 py-3 mt-3 hover:bg-yellow hover:border-yellow hover:text-black duration-500 rounded-md"
+            >
+              Se more movie
+            </button>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full max-w-7xl mx-auto mt-16 gap-7 ">
+            <div class="border-2 border-white h-[400px] p-5">
+                <img class="h-full w-full bg-center bg-cover" src="images/tenet.jpg" alt="">
+            </div>
+            <div class="border-2 border-white h-[400px]  p-3">
+                <img class="h-full w-full bg-center bg-cover" src="images/inception.jpg" alt="">
+            </div>
+            <div class="border-2 border-white h-[400px] p-3">
+                <img class="h-full w-full bg-center bg-cover" src="images/fractured.jpg" alt="">
+            </div>
+            <div class="border-2 border-white h-[400px] p-3">
+                <img class="h-full w-full bg-center bg-cover" src="images/interstellar.jpg" alt="">
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
